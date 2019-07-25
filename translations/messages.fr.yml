@@ -1,3 +1,90 @@
+header:
+  title:
+    label: "circuit ADREC"
+  menu:
+    tag:
+      label: "Tags"
+    bike:
+      label: "Motos"
+    bikeOwner:
+      label: "Propriétaires"
+    customer:
+      label: "Clients"
+    reservation:
+      label: "Reservations"
+
 home:
   title:
     label: "Bienvenue sur le site du circuit de l'ADREC"
+
+
+
+tag:
+  form:
+    name:
+      label: "Nom"
+form:
+  show:
+    label: "Détail"
+  edit:
+    label: "Modifier"
+  new:
+    label: "Nouveau"
+
+bike:
+  title:
+    label: "Créer une moto"
+  form:
+    brand:
+      label: "Marque"
+    model:
+      label: "Modele"
+    matriculation:
+      label: "Immatriculation"
+    color:
+      label: "Couleur"
+    power:
+      label: "Puissance"
+    kilometer:
+      label: "Kilometrage"
+    productionYear:
+      label: "Année de production"
+    status:
+      label: "Statut"
+      available:
+        label: "Disponible"
+      unavailable:
+        label: "Indisponible"
+      repair:
+        label: "En réparation"
+      default:
+        label: "Inconnu"
+    bikeOwner:
+      label: "Propriétaire"
+
+person:
+  gender:
+    male:
+      label: "homme"
+    female:
+      label: "femme"
+    other:
+      label: "autre"
+
+reservation:
+  trackDate:
+    label: "Date de réservation"
+  createdAt:
+    label: "Date de création"
+  status:
+    label: "Statut"
+    ongoing:
+      label: "en cours"
+    cancelled:
+      label: "annulée"
+    confirmed:
+      label: "Validée"
+  bike:
+    label: "Moto"
+
+
